@@ -3,12 +3,12 @@
 
 
 /**
- * swap - swap two elements
+ * swaping - swap two elements
  * @a: pointer to the first element
  * @b: pointer to the second element
  */
 
-void swap(int *a, int *b)
+void swaping(int *a, int *b)
 {
 	int c = *a;
 	*a = *b;
@@ -56,14 +56,14 @@ int lomuto(int *array, int low, int high, size_t size)
 			k++;
 			if (k != j)
 			{
-				swap(&array[k], &array[j]);
+				swaping(&array[k], &array[j]);
 				print_array(array, size);
 			}
 		}
 	}
 	if (k + 1 != high)
 	{
-		swap(&array[k + 1], &array[high]);
+		swaping(&array[k + 1], &array[high]);
 		print_array(array, size);
 	}
 	return (k + 1);
