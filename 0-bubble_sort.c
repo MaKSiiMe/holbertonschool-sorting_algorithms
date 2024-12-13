@@ -1,11 +1,10 @@
 #include "sort.h"
 
 /**
- * swap - a fonction to swap value inside the array
- *
+ * swap - function to swap value
  * @i: value that has to swap her place with j
  * @j: value that has to swap her place with i
- * @arr: pointer to the array we need to swap value
+ * @arr: pointer
  */
 
 void swap(int *arr, size_t i, size_t j)
@@ -19,10 +18,8 @@ void swap(int *arr, size_t i, size_t j)
 /**
  * bubble_sort - function that bubble sort an array of value calling
  * the function swap
- *
- * @array: pointer to the array of integer we need to sort
- * @size: number of byte size of the entire array
- * i is the num of elem at the end of the arr that been sorted
+ * @array: pointer to the array of integers.
+ * @size: numbers of byte
  */
 
 void bubble_sort(int *array, size_t size)
